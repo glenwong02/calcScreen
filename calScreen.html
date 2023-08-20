@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScreenSize</title>
+</head>
+<body>
+    <h1>ScreenWidth: <span id="screenw"></span>px</h1>
+
+    <h1>screenHeight: <span id="screenh"></span>px</h1>
+</body>
+<script>
+        // Get the screen width and height
+    var screenWidth = window.innerWidth;
+    var screenHeight = window.innerHeight;
+
+    // Display the screen size
+    console.log("Screen Width: " + screenWidth + " pixels");
+    console.log("Screen Height: " + screenHeight + " pixels");
+
+    document.getElementById("screenw").textContent = screenWidth;
+    document.getElementById("screenh").textContent = screenHeight;
+
+</script>
+</html>
